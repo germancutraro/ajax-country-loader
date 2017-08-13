@@ -1,0 +1,13 @@
+* {
+  margin-top: 15px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: steelblue;
+  text-decoration: none;
+  padding: 5px;
+}
