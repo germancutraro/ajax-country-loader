@@ -1,4 +1,4 @@
-# Ajax Exercise country loaded
+# Ajax Exercise country loader
 
 Simple Ajax practise
 
