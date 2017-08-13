@@ -16,8 +16,7 @@ function ajaxRequest (e) {
 }
 // Event propagation
 menu.addEventListener('click', e => {
-  e.preventDefault();
-  if (e.target.localName === 'a') {
+    e.preventDefault();
+  if (e.target.localName === 'a') 
     ajaxRequest(e);
-  }
 });
