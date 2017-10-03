@@ -5,9 +5,9 @@ function ajaxRequest (e) {
   let ajax = new XMLHttpRequest();
   ajax.open('GET', e.target.href);
   ajax.onload = function () {
-    if (ajax.status === 200)
+    if (this.status === 200)
       output.innerHTML = this.response;
-    else if (ajax.status === 404)
+    else if (this.status === 404)
       output.innerHTML = `Error! file ${this.statusText}`;
     else
       output.innerHTML = `Error: ${this.status}`;
